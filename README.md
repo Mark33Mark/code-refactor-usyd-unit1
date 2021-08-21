@@ -1,5 +1,5 @@
 ![Mark Watson](assets/img/PNG_header_extra-clean-water_1000x459.png)
-# USYD-FSF MiniProject
+# USYD-FSF Week1 Project
 ## Refactoring - improve website accessibility rating
 
 ### Table of Contents  
@@ -21,7 +21,7 @@
 * An on the job ticket.  
 
 **Why this project?**  
-* The client, Horiseon, requested an improved accessibility rating for their website.  Accessible sites rank higher in search engines.  Horiseon are a SEO marketing agency and a high accessibility rating is critical to their credibility and reputation as accessible sites rank higher in search engines.
+* The client, Horiseon, requested improving the accessibility rating of their website.  Accessible sites rank higher in search engines.  Horiseon are a SEO marketing agency and high accessibility ratings are critical to their credibility and reputation because accessible sites rank higher in search engines.
 
 **What problem does this project solve?**  
 * Improve the sites Search Engine Optimisation (SEO) by improving it's accessibility rating.
@@ -60,11 +60,15 @@ The code can be downloaded from the [Github repository](https://github.com/Mark3
 ### 6. License  
  The works in this repository are subject to:  
 
-[![GitHub](https://img.shields.io/github/license/Mark33Mark/code-refactor-usyd-unit1)](doc/license_MIT.md)
+[![GitHub](https://img.shields.io/github/license/Mark33Mark/code-refactor-usyd-unit1)](docs/LICENSE.md)
 
 ---
 ### 7. Github repo status  
 
+![GitHub top language](https://img.shields.io/github/languages/top/Mark33Mark/code-refactor-usyd-unit1)
+![GitHub language count](https://img.shields.io/github/languages/count/Mark33Mark/code-refactor-usyd-unit1)
+![GitHub last commit](https://img.shields.io/github/last-commit/Mark33Mark/code-refactor-usyd-unit1)
+![GitHub commit checks state](https://img.shields.io/github/checks-status/Mark33Mark/code-refactor-usyd-unit1/787dcdef0c7fbc2b3f8fdeee90943cad9161bd7f)
 
 ---
 ### 8. How to Contribute
@@ -92,4 +96,4 @@ No tests will be provided for this project as it is limited to HTML and CSS file
   * [x]  Repository contains a README file with descriptio, screenshot and link to deployed application.
 ---
 
-- [Back to the top](#usyd-fsf-miniproject)
+- [Back to the top](#usyd-fsf-week1-project)
