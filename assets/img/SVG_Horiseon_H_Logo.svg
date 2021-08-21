@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg824"
+   width="120.94485"
+   height="120.94488"
+   viewBox="32 32 120.94485 120.94488"
+   sodipodi:docname="SVG_Horiseon_H_Logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs828" />
+  <sodipodi:namedview
+     id="namedview826"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.0311792"
+     inkscape:cx="61.048281"
+     inkscape:cy="92.803234"
+     inkscape:window-width="2270"
+     inkscape:window-height="1133"
+     inkscape:window-x="229"
+     inkscape:window-y="176"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g830"
+     viewbox-x="1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Horiseon_logo"
+     id="g830"
+     transform="translate(231.76505,164.91143)">
+    <path
+       id="path123859"
+       style="display:inline;opacity:1;fill:#2a607c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.67085;stroke-linecap:round;stroke-dasharray:6.67085, 6.67085;stroke-opacity:1"
+       d="m -156.76505,-72.91143 h 35 v 55 l 12,0.295387 V -125.91143 h -12 v 43 h -35 v -43 h -12 v 107.999999 l 12,1e-6 z m -43,0.472135 v -60.472135 l 60.43284,0.0396 60.432904,0.0396 0.0395,60.432534 0.0396,60.433144 h -60.472404 -60.47244 z"
+       sodipodi:nodetypes="cccccccccccccccccccccc"
+       inkscape:label="plaque" />
+  </g>
+</svg>

@@ -54,7 +54,7 @@ The code can be downloaded from the [Github repository](https://github.com/Mark3
 
 ---
 ### 5. Credits  
-[w3schools - How To's](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky)
+No credits for this work, all work has been completed without reference.
 
 ---
 ### 6. License  
