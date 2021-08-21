@@ -1,3 +1,25 @@
+/* =================================================================== 
+ * 
+ *  Main Stylesheet - style.css
+ *  created: August-2021
+ *
+ *  ------------------------------------------------------------------
+ *
+ *  TOC:
+ *      01. base style overrides
+ *      02. header
+ *      03. content
+ *      04. benefits 
+ *      05. footer
+ *      06. end
+ *
+ * =================================================================== */
+
+/* ===================================================================
+ *  01. base style overrides
+ *
+ * ------------------------------------------------------------------- */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,7 +28,24 @@
 
 body {
     background-color: #d9dcd6;
+    /* this font-type was used for majority of elements so I've moved it under body 
+       and deleted it where specified in the elements. */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ===================================================================
+ *  02. header
+ *
+ * ------------------------------------------------------------------- */
 
 .header {
     padding: 20px;
@@ -28,7 +67,6 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -41,22 +79,34 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* ===================================================================
+ *  03. content
+ *
+ * ------------------------------------------------------------------- */
 
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+
+    /* ----------------------------------------------------------------- 
+    * I updated the image by moving it to a recognised screen ratio width
+    * UHD is 3840px x 2160px.  I've saved as both JPG and PNG in the file 
+    * but using the JPG as no transparency needed and file size saving is
+    * MASSIVE - from a 13.5Mb file to a 1.4Mb file - nearly 1000% improvement
+    * all means the page generates quicker - question is if image quality has
+    * been compromised.  I don't think so, original image retained in assets
+    * folder so it is easy to revert.
+    ▼-----▼-----▼-----▼-----▼------------------------------------------ */
+    background-image: url("../img/JPG_digital-marketing-meeting_resizedUHD3840x2560.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -69,11 +119,41 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    /* ----------------------------------------------------------------- 
+    * the following items to line 151 are part of the 'content' class and 
+    * I've moved them to logically follow the content class.  Also 
+    * grouped the elements to align with their respective location in the 
+    * index.html file.  Grouped selectors as they all had same parameters/
+    * settings.
+    ▼-----▼-----▼-----▼-----▼------------------------------------------ */
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* ===================================================================
+ *  04. benefits <aside> 
+ *
+ * ------------------------------------------------------------------- */
 
 .benefits {
     margin-right: 20px;
@@ -82,119 +162,55 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #1773a5;  /* Colour changed to improve accessibility rating.  
+                                     Was #2589bd which gave a contrast against the text
+                                     of 3.89.  Proposed colour achieves contrast ratio
+                                     4.56.
+                                     It is darker than original and instead of brighter
+                                     against adjacent blocks, it is now darker.  */
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Clustered the selectors as the parameters were the same. */
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* ===================================================================
+ *  05. footer
+ *
+ * ------------------------------------------------------------------- */
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+
+/* -------------------------------------------------------------------
+ * 
+ *  06. END of style.css file
+ *
+ * =================================================================== */
